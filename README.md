@@ -83,7 +83,7 @@ This chart represents customers age group, and bike related purchase, which age 
 
 A table is used to show 1000 customers details
 
-https://github.com/user-attachments/assets/13cc5237-e618-498f-9e75-203432280f5d
+https://github.com/user-attachments/assets/eced317f-0e70-4eeb-b67e-2b779c213503
 
 ### Conclusion from Analysis
 Based on the data, here are some insights and findings that can be derived using the visualizations from Power BI:
