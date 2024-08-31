@@ -94,7 +94,7 @@ A table is used to show 1000 customers details
 https://github.com/user-attachments/assets/eced317f-0e70-4eeb-b67e-2b779c213503
 
 ### Conclusion from Analysis
-Based on the data, here are some insights and findings that can be derived using the visualizations from Power BI:
+Based on the data, here are some insights and findings that is derived using the visualizations from Power BI:
 
 - 50% of customers are from NSW state.
 - State NSW has maximum numbers of car owners.
