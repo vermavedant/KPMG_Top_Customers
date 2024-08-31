@@ -17,35 +17,47 @@ The data is provided by KPMG Virtual Intership.
 ## Process Overview for Customer Data Quality Assessment and RFM Analysis
 ### 1. Data Quality Assessment
 - **Data Cleaning:**
- **Correct Data Types:** Ensure all fields in the datasets have the correct data types (e.g., dates are in date format, numerical fields are numeric, categorical fields are properly labeled).
- **Exclude Deceased Customers:** Identify and records of customers are excluded from the dataset to ensure they are not included in the analysis.
+
+**Correct Data Types:** Ensure all fields in the datasets have the correct data types (e.g., dates are in date format, numerical fields are numeric, categorical fields are properly labeled).
+
+**Exclude Deceased Customers:** Identify and records of customers are excluded from the dataset to ensure they are not included in the analysis.
 
 ### 2.Data Preparation
 - **Dataset Integration:**
-  Integrate Customer Demographics, Customer Addresses, and Transactions data to create a comprehensive dataset that includes all relevant customer information.
+
+Integrate Customer Demographics, Customer Addresses, and Transactions data to create a comprehensive dataset that includes all relevant customer information.
 - **Data Validation:**
-  Merged data are cross checked for consistency and correctness to ensure that all customer records align accurately across the different datasets.
+
+Merged data are cross checked for consistency and correctness to ensure that all customer records align accurately across the different datasets.
 
 ### 3.RFM Analysis
 - **Calculate RFM Metrics:**
- **Recency (R):** Measure the number of days since the customer's last purchase.
- **Frequency (F):** Count the total number of purchases made by the customer within a specified period.
- **Monetary (M):** Sum the total value of the customer’s purchases during the specified period.
+
+**Recency (R):** Measure the number of days since the customer's last purchase.
+
+**Frequency (F):** Count the total number of purchases made by the customer within a specified period.
+
+**Monetary (M):** Sum the total value of the customer’s purchases during the specified period.
 
 - **Assign RFM Scores:**
- Customers Score based on Recency, Frequency, and Monetary values by assigning scores (e.g., 1-5) to each metric, where 1 represents the least favorable and 5 the most favorable behavior.
+
+Customers Score based on Recency, Frequency, and Monetary values by assigning scores (e.g., 1-5) to each metric, where 1 represents the least favorable and 5 the most favorable behavior.
 
 ### 4. Customer Ranking
 - **Calculate RFM Score:**
- R, F, M scores are combined to calculate an overall RFM score for each customer.
+
+R, F, M scores are combined to calculate an overall RFM score for each customer.
 - **Rank Customers:**
- Customers are ranked based on their overall RFM score, where the highest rank indicate the most valuable customers.
+
+Customers are ranked based on their overall RFM score, where the highest rank indicate the most valuable customers.
 
 ### 5. Select Top 1000 Customers
 - **Filter Top 1000:**
- Based on the customer ranks derived from the RFM analysis, the top 1000 customers are selected.
+
+Based on the customer ranks derived from the RFM analysis, the top 1000 customers are selected.
 - **Data Export:**
- Export the list of the top 1000 customers for further analysis in Power BI and dashboard creation.
+
+Export the list of the top 1000 customers for further analysis in Power BI and dashboard creation.
 
 
 ### 6. Visualize the data in Power BI
